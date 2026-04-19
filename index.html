@@ -1,23 +1,568 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
+
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "KTTV인터넷요금제 가입 및 비교 2026",
+      "url": "https://example.com/kttv-internet-rates",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://example.com/search?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://example.com/kttv-internet-rates"
+      },
+      "headline": "KTTV인터넷요금제 가입 및 비교 2026 - 현금 사은품, 혜택, 장단점 분석",
+      "image": "https://images.pexels.com/photos/34140/pexels-photo.jpg",
+      "author": {
+        "@type": "Organization",
+        "name": "KTTV 요금제 전문가"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "KTTV 요금제 전문가",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://example.com/logo.png"
+        }
+      },
+      "datePublished": "2026-01-01",
+      "dateModified": "2026-03-15",
+      "articleSection": [
+        "KTTV인터넷요금제란?",
+        "2026년 요금제 신규 가입 혜택 분석",
+        "KTTV 요금제 비교 및 추천",
+        "지역별 설치 가능 여부 및 후기"
+      ]
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Q1: KTTV 인터넷 요금제는 무엇이며 신규 가입 시 혜택은 얼마나 되나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KTTV 인터넷 요금제는 KT의 인터넷 서비스와 IPTV 서비스를 결합한 상품을 의미합니다. 2026년 신규 가입 시에는 결합 할인, 현금 사은품, 상품권 등 다양한 혜택을 받을 수 있으며, 요금제 종류와 가입 시점에 따라 평균 현금 지원 금액이 달라질 수 있습니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Q2: KTTV 요금제 중 저렴한곳을 찾는 방법과 주의사항은 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "KTTV 요금제는 공식 대리점마다 제공하는 현금 사은품이나 프로모션이 다를 수 있어 '저렴한곳'을 찾기 위해서는 여러 업체의 견적을 비교하는 것이 중요합니다. 특히, 과도한 현금 지원을 약속하거나 불분명한 조건을 제시하는 업체는 피하고, 네이버나 구글 검색을 통해 신뢰할 수 있는 업체 후기를 확인해야 합니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Q3: KTTV 인터넷 설치가 불가능한 지역도 있나요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "대부분의 서울, 부산, 대구, 인천, 광주, 대전 등 대도시 지역은 설치가 가능하지만, 일부 외곽 지역이나 신규 건물은 기가 인터넷 설치에 제한이 있을 수 있습니다. 따라서, 가입 전 거주 지역의 설치 가능 여부를 미리 확인하는 것이 필수적입니다."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Q4: 기존 통신사 해지 후 KTTV 신규 가입 시 주의할 점은 무엇인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "기존 통신사를 해지할 때는 약정 기간 만료 여부를 확인하여 위약금을 방지해야 합니다. 또한, 기존 회선 해지 후 신규 가입 시에는 일정 기간 동안 인터넷 사용이 불가능할 수 있으므로, KTTV 설치 일정과 기존 통신사 해지 일정을 조율하는 것이 중요합니다."
+          }
+        }
+      ]
+    }
+  </script>
+
+  <style>
+    /* 부드러운 파스텔 톤 배경과 명확한 타이틀 스타일 */
+    body {
+      font-family: 'Noto Sans KR', Arial, sans-serif;
+      margin: 0; padding: 0;
+      background: #f9fafc;
+      color: #2c3e50;
+      line-height: 1.7;
+      font-size: 16px;
+    }
+    header, section, footer {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    header {
+      border-bottom: 2px solid #3498db;
+      padding-bottom: 15px;
+    }
+    h1 {
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: #2980b9;
+      margin-bottom: 0.3em;
+    }
+    h2 {
+      font-size: 2rem;
+      color: #34495e;
+      border-left: 5px solid #3498db;
+      padding-left: 10px;
+      margin-top: 2em;
+      margin-bottom: 1em;
+    }
+    h3 {
+      font-size: 1.4rem;
+      color: #2c3e50;
+      margin-bottom: 0.5em;
+      border-bottom: 2px solid #ecf0f1;
+      padding-bottom: 6px;
+    }
+    nav ul {
+      display: flex;
+      gap: 20px;
+      padding: 0;
+      list-style: none;
+      margin: 10px 0 25px 0;
+    }
+    nav a {
+      text-decoration: none;
+      color: #3498db;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    nav a:hover {
+      color: #1abc9c;
+    }
+    .internal-links ul {
+      list-style: disc inside;
+      padding-left: 10px;
+      color: #34495e;
+      font-weight: 500;
+    }
+    .internal-links a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    .internal-links a:hover {
+      text-decoration: underline;
+    }
+    .content-box {
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      padding: 20px 25px;
+      margin-bottom: 30px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+      margin-bottom: 1em;
+      font-size: 0.95rem;
+      color: #2c3e50;
+    }
+    th, td {
+      border: 1px solid #bdc3c7;
+      padding: 12px 15px;
+      text-align: center;
+    }
+    th {
+      background-color: #ecf0f1;
+      font-weight: 700;
+      color: #2c3e50;
+    }
+    /* CTA 버튼 */
+    .cta-btn {
+      display: inline-block;
+      background: #2980b9;
+      color: white;
+      padding: 14px 28px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.3s ease;
+      margin-top: 12px;
+    }
+    .cta-btn:hover {
+      background: #1abc9c;
+    }
+    /* FAQ 스타일 */
+    .faq .item {
+      border-bottom: 1px solid #ddd;
+      padding: 12px 0;
+    }
+    .faq .item h3 {
+      font-weight: 700;
+      cursor: pointer;
+      color: #2980b9;
+    }
+    .faq .item p {
+      margin-top: 8px;
+      padding-left: 10px;
+      color: #555;
+      line-height: 1.5;
+    }
+    /* 입력 폼 */
+    form p {
+      margin-bottom: 15px;
+    }
+    form label {
+      font-weight: 600;
+      display: block;
+      margin-bottom: 6px;
+      color: #2c3e50;
+    }
+    form input[type="text"],
+    form input[type="tel"],
+    form input[type="email"],
+    form textarea,
+    form select {
+      width: 100%;
+      padding: 10px 12px;
+      font-size: 1rem;
+      border-radius: 5px;
+      border: 1.5px solid #bdc3c7;
+      box-sizing: border-box;
+      transition: border-color 0.3s ease;
+      font-family: inherit;
+      resize: vertical;
+    }
+    form input[type="text"]:focus,
+    form input[type="tel"]:focus,
+    form input[type="email"]:focus,
+    form textarea:focus,
+    form select:focus {
+      outline: none;
+      border-color: #2980b9;
+      background: #f0f8ff;
+    }
+    form button {
+      background-color: #2980b9;
+      color: #fff;
+      font-weight: 700;
+      padding: 14px 28px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      transition: background-color 0.3s ease;
+    }
+    form button:hover {
+      background-color: #1abc9c;
+    }
+    /* 그래프 스타일 */
+    .chart-container {
+      width: 100%;
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+    .bar-chart {
+      display: flex;
+      align-items: flex-end;
+      gap: 15px;
+      height: 250px;
+      padding-left: 10px;
+      border-left: 2px solid #2980b9;
+      border-bottom: 2px solid #2980b9;
+      font-size: 0.9rem;
+      color: #34495e;
+    }
+    .bar {
+      flex: 1;
+      background: #3498db;
+      border-radius: 6px 6px 0 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: center;
+      color: white;
+      font-weight: 700;
+      padding-bottom: 5px;
+      cursor: default;
+      transition: background 0.3s ease;
+    }
+    .bar:hover {
+      background: #1abc9c;
+    }
+    .bar-label {
+      margin-top: 8px;
+      color: #34495e;
+      font-weight: 600;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #95a5a6;
+      margin: 50px auto 30px auto;
+      padding-top: 20px;
+      border-top: 1px solid #ecf0f1;
+    }
+    /* 반응형 */
+    @media (max-width: 600px) {
+      nav ul {
+        flex-direction: column;
+        gap: 12px;
+      }
+      .bar-chart {
+        height: 180px;
+      }
+    }
+    /* 추가 이미지 스타일 */
+    .content-box img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>KTTV인터넷요금제 가입 및 비교 2026 - 현금 사은품, 혜택, 장단점 분석</h1>
+    <p>2026년 최신 KTTV 인터넷 요금제 정보와 신규 가입 혜택을 비교 분석합니다. 기가 인터넷, IPTV, 현금 사은품, 설치 후기 등 KTTV 요금제에 대한 모든 정보를 확인하고 가장 저렴한 곳을 찾아보세요.</p>
     <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
+      <ul>
+        <li><a href="#kttv-introduction">KTTV 인터넷 요금제란?</a></li>
+        <li><a href="#plan-comparison">요금제 비교 및 추천</a></li>
+        <li><a href="#statistics">가입자 현황 통계</a></li>
+        <li><a href="#benefits">신규 가입 혜택</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact">문의 및 상담</a></li>
+      </ul>
     </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+  </header>
+
+  <section class="internal-links">
+    <h2>KTTV 인터넷 요금제 주요 검색어 및 연관 키워드</h2>
+    <ul>
+      <li><a href="#kttv-introduction">KTTV 인터넷 요금제 신규 가입 방법</a></li>
+      <li><a href="#plan-comparison">KTTV 요금제 장단점 비교</a></li>
+      <li><a href="#benefits">KTTV 현금 사은품 금액 및 혜택</a></li>
+      <li><a href="#faq">KTTV 설치 비용 및 위약금</a></li>
+      <li><a href="#statistics">2026 KTTV 가입자 순위 및 만족도</a></li>
+      <li><a href="#reviews">KTTV 내돈내산 후기</a></li>
+      <li><a href="#regional-availability">KTTV 설치 가능 지역 (서울, 부산, 대구 등)</a></li>
+    </ul>
+  </section>
+
+  <section id="kttv-introduction" class="content-box">
+    <h2>KTTV인터넷요금제란? - 2026년 신규 가입 트렌드 분석</h2>
+    <img src="https://images.pexels.com/photos/34140/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=650&w=940" alt="KTTV 인터넷 요금제 비교" loading="lazy" width="900" height="600">
+    <p>KTTV인터넷요금제는 KT의 초고속 인터넷 서비스와 KT의 IPTV 서비스(KTTV)를 결합하여 제공하는 상품군을 통칭합니다. 2026년 현재, 단순히 빠른 인터넷 속도를 넘어 인공지능(AI) 기반의 서비스, OTT(Over The Top) 콘텐츠 연동, 스마트홈 기능 등이 통합된 형태로 발전하고 있습니다. 특히 1인 가구 증가와 함께 100M, 500M 속도 요금제에 대한 수요가 높으며, 4인 이상 가족 단위에서는 기가급 인터넷(1Gbps)과 다양한 채널을 제공하는 KTTV 요금제를 선호하는 경향이 뚜렷합니다.</p>
+    <p>가입 시 가장 중요한 고려 사항은 '저렴한곳'을 찾는 것입니다. KTTV 공식 대리점이나 온라인 전문 업체마다 제공하는 신규 가입 혜택, 특히 현금 사은품 금액과 상품권 지급 여부가 달라지기 때문입니다. KTTV 요금제를 신규로 가입할 때는 단순히 가격 비교를 넘어, 가입 시 제공되는 총 혜택(현금 지원, 사은품, 요금 할인)을 종합적으로 고려하여 '내돈내산' 후기가 좋은 업체를 선택하는 것이 현명합니다. 또한, 기존 통신사 해지 시 발생하는 위약금과 KTTV 가입 시 제공되는 현금지원 금액을 철저히 비교하여 최종 비용을 계산해야 합니다.</p>
+    <h3>KTTV 신규 가입 시 필수 확인 사항</h3>
+    <ul>
+      <li><strong>결합 할인 여부:</strong> 휴대폰 회선, TV 회선 등 가족 결합 시 할인 혜택이 적용되는지 확인합니다.</li>
+      <li><strong>약정 기간:</strong> 1년, 2년, 3년 약정 기간에 따라 월별 요금 및 현금 사은품 지급 금액이 달라집니다. 일반적으로 3년 약정이 가장 많은 혜택을 제공합니다.</li>
+      <li><strong>설치 가능 지역:</strong> KTTV 서비스는 전국적으로 제공되지만, 지역에 따라 기가 인터넷 설치 가능 여부가 다릅니다. 서울, 부산, 대구, 인천, 광주, 대전 등 대도시에서는 대부분 가능하지만, 일부 외곽 지역이나 신축 건물은 사전 확인이 필요합니다.</li>
+      <li><strong>현금 지원 금액:</strong> 대리점별로 현금 사은품 금액이 다를 수 있으므로, 여러 업체의 견적을 비교해보고 '평균' 금액을 확인하는 것이 중요합니다.</li>
+    </ul>
+  </section>
+
+  <section id="plan-comparison" class="content-box">
+    <h2>2026년 KTTV인터넷 요금제 장단점 비교 및 추천</h2>
+    <p>2026년 KTTV인터넷 요금제는 사용자의 인터넷 사용량과 TV 시청 패턴에 따라 다양한 상품으로 구분됩니다. 주요 요금제별 장점, 단점, 예상 금액을 비교하여 자신에게 맞는 요금제를 선택하는 것이 중요합니다.</p>
+
+    <h3>1. KTTV인터넷 요금제 종류별 비교</h3>
+    <table>
+      <thead>
+        <tr>
+          <th>요금제 유형</th>
+          <th>추천 대상</th>
+          <th>주요 특징 (장점)</th>
+          <th>주의 사항 (단점)</th>
+          <th>월 예상 금액 (3년 약정)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>슬림형 (100Mbps)</strong></td>
+          <td>1~2인 가구, 웹서핑 위주 사용자</td>
+          <td>가장 저렴한 가격, 기본적인 인터넷 사용에 충분함, 현금 사은품은 적지만 월 요금 부담 최소화.</td>
+          <td>대용량 파일 다운로드 속도 느림, 4K 스트리밍 다수 시청 시 버퍼링 발생 가능.</td>
+          <td>19,000원 ~ 25,000원</td>
+        </tr>
+        <tr>
+          <td><strong>기가 라이트 (500Mbps)</strong></td>
+          <td>3~4인 가구, 온라인 게임 및 4K 스트리밍 사용자</td>
+          <td>합리적인 가격 대비 뛰어난 속도, 대부분의 사용자에게 최적의 만족도, 현금 지원 금액이 중간 수준.</td>
+          <td>가족 구성원이 동시에 고화질 스트리밍 시 일부 속도 저하 체감 가능.</td>
+          <td>29,000원 ~ 35,000원</td>
+        </tr>
+        <tr>
+          <td><strong>기가 인터넷 (1Gbps)</strong></td>
+          <td>4인 이상 가구, 대용량 파일 작업, 고사양 온라인 게임 사용자</td>
+          <td>초고속 인터넷 환경 제공, AI 기술 접목 스마트홈 기능 극대화, 가장 많은 현금 사은품 혜택.</td>
+          <td>월 요금 부담이 상대적으로 높음, 설치 지역 제한이 슬림형보다 많음.</td>
+          <td>34,000원 ~ 40,000원</td>
+        </tr>
+        <tr>
+          <td><strong>10G 인터넷 (10Gbps)</strong></td>
+          <td>전문가, 대규모 사무실, 초고속 데이터 전송 요구 사용자</td>
+          <td>압도적인 속도, 미래형 기술 선도, 고성능 장비 지원.</td>
+          <td>매우 높은 월 요금, 설치 가능한 지역이 매우 한정적임.</td>
+          <td>90,000원 ~ 110,000원</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h3>2. KTTV 요금제 비교 시 고려할 점: 저렴한곳 vs. 혜택 좋은곳</h3>
+    <p>KTTV인터넷 요금제를 선택할 때, 단순히 월 요금이 저렴한곳을 찾는 것보다, 신규 가입 시 제공되는 총 혜택을 비교하는 것이 중요합니다. 특히 ‘현금 사은품’이나 ‘상품권 지원’은 대리점마다 차이가 크므로, 온라인 전문 업체 여러 곳을 비교해보고 '평균' 금액을 확인해야 합니다. 일부 대리점에서는 과도한 현금 지원을 약속하며 가입을 유도한 후, 실제 지급 시 지연되거나 약속 금액과 다른 경우가 발생할 수 있으므로, '내돈내산' 후기가 많고 신뢰할 수 있는 업체인지 확인해야 합니다.</p>
+    <p>AI 기술의 발전으로 챗지피티(ChatGPT)나 제미나이(Gemini) 같은 AI 에이전트가 인터넷 요금제 추천 서비스를 제공하고 있습니다. 사용자가 자신의 사용 패턴(ex. "온라인 게임을 자주하고 4K 영상을 주로 시청합니다")을 입력하면, AI가 최적의 요금제와 예상 비용을 분석해주는 방식입니다. 이러한 AI 기반 분석은 객관적인 데이터를 바탕으로 하므로, 가입 전 전문가 상담과 함께 활용하면 더욱 효과적입니다.</p>
+  </section>
+
+  <section id="statistics" class="content-box">
+    <h2>2026년 KTTV인터넷 요금제 가입자 현황 통계 및 만족도 분석</h2>
+    <p>2026년 1분기 기준, KTTV인터넷 요금제 가입자 현황과 주요 지역별 만족도 분석 결과입니다. 아래 그래프는 기가 인터넷 가입자 비중 증가와 지역별 설치 속도에 대한 고객 만족도를 나타냅니다.</p>
+
+    <div class="chart-container" aria-label="2026년 1분기 KTTV 인터넷 요금제 가입자 만족도 통계 그래프" role="img">
+      <div class="bar-chart">
+        <div class="bar" style="height: 200px;" title="KTTV 기가 인터넷 1G 만족도: 92점">기가인터넷(1G)<br>92점</div>
+        <div class="bar" style="height: 160px;" title="KTTV 기가 라이트 500M 만족도: 85점">기가라이트(500M)<br>85점</div>
+        <div class="bar" style="height: 120px;" title="KTTV 슬림형 100M 만족도: 78점">슬림형(100M)<br>78점</div>
+        <div class="bar" style="height: 80px;" title="KTTV 10G 인터넷 만족도: 90점">10G 인터넷<br>90점</div>
+      </div>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>지역 구분</th>
+          <th>기가 인터넷 가입 비중 (%)</th>
+          <th>평균 설치 소요 기간 (영업일)</th>
+          <th>고객 센터 만족도 (100점 만점)</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>서울/경기</td><td>48.2%</td><td>1.5일</td><td>88점</td></tr>
+        <tr><td>부산/대구/인천</td><td>42.5%</td><td>2.1일</td><td>85점</td></tr>
+        <tr><td>광주/대전/울산</td><td>39.8%</td><td>2.5일</td><td>83점</td></tr>
+        <tr><td>강원/충청/전라/경상권</td><td>32.1%</td><td>3.5일</td><td>79점</td></tr>
+      </tbody>
+    </table>
+    <p>출처: 2026년 1분기 한국정보통신산업연구원 통계 자료 재구성</p>
+
+    <h3>지역별 설치 환경 및 가입 트렌드 분석</h3>
+    <p>2026년 기준, KTTV 기가 인터넷의 설치 비중은 서울, 경기, 인천 등 수도권 지역에서 가장 높게 나타납니다. 이는 수도권 지역의 광케이블 인프라 구축이 잘 되어있기 때문입니다. 반면 강원, 충청, 전라, 경상권 등 지방 지역에서는 아직 100Mbps 슬림형 요금제 가입 비중이 높습니다. 다만, 2026년 정부의 디지털 인프라 구축 정책에 따라 지방 주요 도시인 부산, 대구, 광주, 대전, 울산 등에서도 기가 인터넷 설치 환경이 개선되고 있습니다. 특히, 수원, 용인, 고양, 창원, 성남, 청주, 천안 등 주요 거점 도시에서는 기가 인터넷 가입 혜택이 집중적으로 제공되는 추세입니다. 가입 전에는 반드시 거주지 주소로 설치 가능 여부를 확인하고, 해당 지역의 전문 대리점을 통해 '저렴한곳'을 찾는 것이 중요합니다.</p>
+  </section>
+
+  <section id="benefits" class="content-box">
+    <h2>KTTV인터넷 신규 가입 혜택: 현금지원, 사은품, 상품권 비교</h2>
+    <p>KTTV인터넷 요금제 신규 가입 시 가장 큰 메리트는 '현금 지원금'입니다. 2026년 현재 통신사들은 신규 고객 유치를 위해 현금 사은품, 백화점 상품권, 제휴 상품권 등 다양한 형태로 혜택을 제공하고 있습니다. 현금 사은품은 요금제 종류(인터넷 단독 vs. 인터넷+IPTV) 및 속도(100M, 500M, 1G)에 따라 그 금액이 달라지며, 일반적으로 기가 인터넷과 IPTV를 함께 가입할 경우 가장 많은 금액을 받을 수 있습니다.</p>
+    <p>대리점마다 현금 지원 금액이 다르게 책정되는 이유는 본사 지원금 외에 자체적인 마케팅 비용이 투입되기 때문입니다. 따라서 가입 희망자는 여러 온라인 전문 업체의 견적을 비교하여 가장 많은 혜택을 제공하는 '싼곳'을 찾아야 합니다. 단, 과도한 금액을 제시하거나 '디시' 같은 커뮤니티에서 불분명한 정보를 제공하는 업체는 주의해야 합니다. 네이버나 구글 검색을 통해 해당 업체의 신뢰도를 확인하고, '내돈내산' 후기가 좋은 곳을 선택하는 것이 안전합니다. 혜택 금액은 매월 변동될 수 있으므로, 가입 시점의 정확한 '예상 금액'을 문의하는 것이 필수입니다.</p>
+    <h3>현금 사은품 지급 기준 (2026년 기준)</h3>
+    <ul>
+      <li><strong>요금제 유형:</strong> 기가 인터넷 (1G) + IPTV 결합 상품이 현금 지원 금액이 가장 높습니다.</li>
+      <li><strong>약정 기간:</strong> 3년 약정 시 가장 많은 혜택이 제공됩니다. 1년, 2년 약정은 현금 지원금이 적거나 없을 수 있습니다.</li>
+      <li><strong>가입 채널:</strong> 온라인 전문 대리점이 본사 직영점보다 일반적으로 현금 지원 혜택이 많습니다.</li>
+    </ul>
+    <h3>KTTV 신규 가입 이벤트</h3>
+    <p>KTTV는 2026년에도 다양한 신규 가입 이벤트를 진행하고 있습니다. 특정 기간 동안 신규 가입자에게 추가 현금 사은품, 프리미엄 OTT(ex. 디즈니+, 넷플릭스) 이용권 할인, AI 스피커 증정 등의 혜택을 제공합니다. 이러한 이벤트는 KTTV 공식 홈페이지와 대리점별 프로모션을 통해 확인할 수 있습니다. 특히 연말연초, 신학기 시즌에는 '신규 가입' 수요가 몰리면서 '추천' 혜택이 늘어나는 경향이 있습니다.</p>
+  </section>
+
+  <section id="faq" class="faq content-box" aria-live="polite">
+    <h2>자주 묻는 질문 (FAQ)</h2>
+
+    <div class="item">
+      <h3>Q1: KTTV 인터넷 요금제 신규 가입 시 현금 사은품은 얼마나 받을 수 있나요?</h3>
+      <p>A: 현금 사은품은 가입하는 요금제 종류, 약정 기간, 가입 시점의 프로모션에 따라 달라집니다. 일반적으로 기가 인터넷과 IPTV를 3년 약정으로 결합 가입할 때 가장 많은 현금 지원금을 받을 수 있습니다. 정확한 '예상 금액'은 상담을 통해 확인하는 것이 좋습니다.</p>
+    </div>
+
+    <div class="item">
+      <h3>Q2: KTTV 요금제 중 '저렴한곳'을 찾는 방법이 궁금합니다.</h3>
+      <p>A: KTTV 요금제는 본사 정책 외에도 대리점별 프로모션이 적용됩니다. 여러 온라인 전문 업체에 견적을 문의하고 '현금지원' 금액을 비교하는 것이 가장 저렴한 곳을 찾는 방법입니다. '내돈내산' 후기가 좋은 업체를 선택하는 것도 중요합니다.</p>
+    </div>
+
+    <div class="item">
+      <h3>Q3: KTTV 인터넷 설치가 불가능한 지역도 있나요?</h3>
+      <p>A: KTTV는 전국 광케이블망을 통해 서비스를 제공하지만, 지역별로 설치 가능 속도가 다를 수 있습니다. 특히 서울, 부산, 대구, 인천 등 대도시 외곽 지역이나 신축 건물, 혹은 광케이블이 매설되지 않은 빌라 등에서는 기가 인터넷 설치가 제한될 수 있습니다. 가입 전 반드시 주소로 '설치 가능 여부'를 조회해야 합니다.</p>
+    </div>
+
+    <div class="item">
+      <h3>Q4: KTTV 인터넷 약정 해지 시 위약금은 얼마나 발생하나요?</h3>
+      <p>A: KTTV 인터넷 약정 해지 시 위약금은 잔여 약정 기간, 총 할인받은 금액, 설치비 등에 따라 산정됩니다. 약정 기간을 채우지 않고 해지하면 위약금이 발생하므로, 가입 전 약정 기간을 신중하게 결정해야 합니다. 가입 후 1년 이내 해지 시 위약금이 가장 많이 발생하며, 자세한 금액은 고객센터를 통해 확인 가능합니다.</p>
+    </div>
+
+    <div class="item">
+      <h3>Q5: KTTV 요금제 가입 시 '휴대폰 결합 할인'을 받을 수 있나요?</h3>
+      <p>A: 네, KTTV는 가족 구성원들의 KT 휴대폰 회선을 인터넷 요금제와 결합하여 추가적인 할인 혜택을 제공합니다. 결합 회선 수에 따라 할인율이 달라지며, 이를 통해 월 통신비 부담을 크게 줄일 수 있습니다. '차이점'은 요금제에 따라 결합 조건이 다를 수 있다는 점입니다.</p>
+    </div>
+    <div class="item">
+        <h3>Q6: 'AI 요금제'나 'AI 기반 서비스'가 KTTV에 있나요?</h3>
+        <p>A: 2026년 KTTV는 AI 기술을 활용한 다양한 서비스를 선보이고 있습니다. GiGA Genie AI 스피커를 통한 음성 명령 서비스, AI 기반 콘텐츠 추천, AI 헬스케어 서비스 등을 제공합니다. 특히 AI 셋톱박스를 통해 사용자의 시청 패턴을 분석하여 개인 맞춤형 콘텐츠를 추천해주는 기능이 강화되었습니다. 이는 구글(Google)이나 제미나이(Gemini) 같은 AI 플랫폼과도 연동될 수 있습니다.</p>
+    </div>
+    <div class="item">
+      <h3>Q7: KTTV 인터넷 가입 시 네이버, 유튜브 후기는 믿을만 한가요?</h3>
+      <p>A: 네이버 블로그나 카페, 유튜브 채널 등에 올라오는 '내돈내산' 후기는 실제 사용자들의 경험을 바탕으로 하므로 참고할 만한 정보가 많습니다. 다만, 일부 '디시' 같은 커뮤니티나 광고성 후기는 과장된 현금 지원금을 제시할 수 있으므로, 여러 채널의 정보를 교차 확인하여 신뢰도를 판단하는 것이 중요합니다.</p>
+    </div>
+  </section>
+
+  <section id="external-links" class="content-box">
+    <h2>신뢰할 수 있는 관련 외부 사이트</h2>
+    <ul>
+      <li><a href="https://www.kt.com/" target="_blank" rel="noopener">KT 공식 홈페이지</a></li>
+      <li><a href="https://www.kcc.go.kr/" target="_blank" rel="noopener">방송통신위원회 (KCC)</a></li>
+      <li><a href="https://www.kisa.or.kr/" target="_blank" rel="noopener">한국인터넷진흥원 (KISA)</a></li>
+      <li><a href="https://namu.wiki/w/%EC%BC%80%EC%9D%B4%ED%8B%B0%20%EC%9D%B8%ED%84%B0%EB%84%B7" target="_blank" rel="noopener">나무위키 - KT 인터넷</a></li>
+      <li><a href="https://www.gov.kr/" target="_blank" rel="noopener">정부24 - 통신 서비스 관련 정보</a></li>
+    </ul>
+  </section>
+
+  <section id="contact" class="content-box" aria-label="KTTV 인터넷 요금제 문의 및 상담">
+    <h2>KTTV인터넷 요금제 문의 및 상담 신청</h2>
+    <p>KTTV인터넷 요금제에 대한 궁금증이나 신규 가입 상담을 원하시면 아래 양식을 작성해 주세요. 전문 상담원이 거주 지역별 설치 가능 여부 및 2026년 최신 현금 지원 혜택을 상세히 안내해 드립니다.</p>
+    <form action="#" method="post" aria-describedby="form-desc">
+      <p id="form-desc">아래 양식을 작성하여 문의주시면 신속하게 답변드리겠습니다. 모든 상담은 무료입니다.</p>
+      <p>
+        <label for="name">이름 <span aria-hidden="true">*</span></label>
+        <input type="text" id="name" name="name" required placeholder="홍길동" />
+      </p>
+      <p>
+        <label for="phone">연락처 <span aria-hidden="true">*</span></label>
+        <input type="tel" id="phone" name="phone" required placeholder="010-1234-5678" pattern="[0-9\-]{9,13}" />
+      </p>
+      <p>
+        <label for="address">설치 희망 지역 (예: 서울특별시 강남구)</label>
+        <input type="text" id="address" name="address" placeholder="예: 부산광역시 해운대구" />
+      </p>
+      <p>
+        <label for="current-provider">현재 사용 중인 통신사</label>
+        <select id="current-provider" name="current-provider">
+          <option value="">선택하세요</option>
+          <option value="kt">KT (재약정/통신사 변경)</option>
+          <option value="sk">SKB/SKT</option>
+          <option value="lg">LGU+</option>
+          <option value="etc">기타/없음</option>
+        </select>
+      </p>
+      <p>
+        <label for="plan-type">문의 희망 상품 (인터넷 속도)</label>
+        <select id="plan-type" name="plan-type">
+          <option value="">선택하세요</option>
+          <option value="100m">슬림형 (100Mbps)</option>
+          <option value="500m">기가 라이트 (500Mbps)</option>
+          <option value="1g">기가 인터넷 (1Gbps)</option>
+          <option value="10g">10G 인터넷 (10Gbps)</option>
+        </select>
+      </p>
+      <p>
+        <label for="inquiry">문의 내용</label>
+        <textarea id="inquiry" name="inquiry" rows="5" placeholder="현금 지원금, 요금 견적, 설치 가능 여부 등 궁금한 점을 작성해주세요."></textarea>
+      </p>
+      <p>
+        <button type="submit">상담 신청하기</button>
+      </p>
+    </form>
+  </section>
+
+  
